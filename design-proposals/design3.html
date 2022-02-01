@@ -1,183 +1,252 @@
 <html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FSport</title>
 
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FSport</title>
+    <style type="text/css">
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #f6f9fc;
+      }
 
-  <style type="text/css">
-    body {
-      margin: 0;
-      padding: 0;
-      background-color: #f6f9fc;
-    }
+      table {
+        border-spacing: 0;
+      }
 
-    table {
-      border-spacing: 0;
-    }
+      td {
+        padding: 0;
+      }
 
-    td {
-      padding: 0;
-    }
+      img {
+        border: 0;
+      }
 
-    img {
-      border: 0;
-    }
+      .wrapper {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 600px;
+        table-layout: fixed;
+        background-color: #f6f9fc;
+        padding-bottom: 40px;
+      }
 
-    .wrapper {
-      margin: 0 auto;
-      width: 100%;
-      max-width: 600px;
-      table-layout: fixed;
-      background-color: #f6f9fc;
-      padding-bottom: 40px;
-    }
+      .webkit {
+        max-width: 600px;
+        background-color: white;
+      }
 
-    .webkit {
-      max-width: 600px;
-      background-color: #ffffff;
-    }
-
-    .outer {
-      margin: 0 auto;
-      width: 100%;
-      max-width: 600px;
-      border-spacing: 0;
-      font-family: sans-serif;
-      color: #4a4a4a;
-      
-    }
-
-    .information {
-      
-      text-align: center;
-      font-size: 0;
-      padding-bottom: 20px;
-      padding-top: 10px;
-    }
-    h2{
-      text-align: center;
-      padding-top: 10px;
-    }
-    a {
-      text-decoration: none;
-      color: #388CDA;
-      
-    }
-    .link{
-      text-align:center;
-    }
-    textarea{
-      overflow: auto;
-      resize: none;
-      font-family: sans-serif;
-    }
-    .hr{
-      display: block;
-      margin-top: 0.5em;
-      margin-bottom: 0.5em;
-      margin-left: auto;
-      margin-right: auto;
-      border-style: inset;
-      border-width: 1px;
-    }
-    .link2{
-      padding-top: 10px;
-      text-align: center;
-    }
-
-
-
-    @media screen and (max-width: 600px) {}
-
-    @media screen and (max-width: 400px) {}
-  </style>
-</head>
-
-<body>
-  <div class="wrapper">
-    <div class="webkit">
-      <table class="outer">
-        <tr>
-          <td>
-            <table width="100%">
-              <tr>
-                <td style="
-                      background-color: white;
-                      text-align: center;
-                    ">
-                  <a href="https://www.fsport.se/"><img style="width: 600px; margin-left: 0 auto;"
-                      src="https://getvero.s3.amazonaws.com/uploads%2F9424d06c850d9892f170a9a9d0039c7a%2Ffullsize%2Fceb8e627-3cb3-491c-ab13-4b27b69b7d36-header.png"
-                      target="_blank" alt="FSport Logo" title="Logo" /></a>
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <img style="width: 600px"
-              src="https://getvero.s3.amazonaws.com/uploads%2F9424d06c850d9892f170a9a9d0039c7a%2Ffullsize%2F95c678d8-95a1-4532-9680-cd40cbd6f0f7-hero-01.jpg?fbclid=IwAR3JUVpDUeJvYY0lubSmWVVBuvySHQlOMpKi6fPLovPi9dL3SMsHcaEky0g"
-              alt="Banner" />
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <h2>Information inför match</h2>
-          </td>
-        </tr>
-        <tr>
-          <td class = "information">
-            <table>
-              
-              <textarea name="Information" id="textarea" cols="70" rows="20">Beskrivning av kommande match</textarea>
-            
-            </table>
-          </td>
-        </tr>
-        <tr>
-          <td class = "link"><a href="#">Läs mer...</a></td>
-        </tr>
-        <tr>
-          <td>
-            <hr>
-          </td>
-        </tr>
-        <div class = "statistic">
-          <tr>
-          <td>
-            <h2>Statistik</h2>
-          </td>
-        </tr>
-          <tr>
-            <td>
-              <p style = "text-align: center;">#Username1</p>
-              <hr style = "width: 70%; border: 1px solid green;">
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p style = "text-align: center;">#Username2</p>
-              <hr style = "width: 50%;border: 1px solid green;">
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p style = "text-align: center;">#Username3</p>
-              <hr style = "width: 30%;border: 1px solid green;">
-            </td>
-          </tr>
-          <tr>
-            <td class = "link2"><a href="#">Läs mer...</a></td>
-          </tr>
-        </div>
+      .outer {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 600px;
+        border-spacing: 0;
+        font-family: sans-serif;
+        color:black;
         
+      }
 
+      .information {
+        text-align: center;
+        font-size: 0;
+        padding-bottom: 20px;
+        padding-top: 10px;
+      }
+      h2 {
+        text-align: center;
+        padding-top: 10px;
+        font-weight: bold;
         
-      </table>
+      }
+      a {
+        text-decoration: none;
+        color: #388cda;
+      }
+      .link {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 30px;
+      }
+      textarea {
+        overflow: auto;
+        resize: none;
+        font-family: sans-serif;
+        background-color: white;
+        border: 1px solid grey;
+      }
+      hr {
+        display: block;
+        margin-top: 1.5em;
+        margin-bottom: 0.5em;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: inset;
+        border-width: 1px;
+        border: 1px solid grey;
+      }
+      button {
+        text-align: center;
+        font-size: 1rem;
+        color: white;
+        width: auto;
+        padding: 15px;
+        background-color: #1d1d1d;
+        border: none;
+        border-radius: 5px;
+      }
+      button:hover {
+        background-color: #202020;
+        cursor: pointer;
+      }
+      .hr_statistic{
+        margin-top: 1px;
+      }
+      .player__card{
+        padding: 30px;
+        border: 1px solid green;
+        border-radius: 15px;
+        margin-top: 50px;
+    }
+
+      @media screen and (max-width: 600px) {
+      }
+
+      @media screen and (max-width: 400px) {
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="webkit">
+        <table class="outer">
+          <tr>
+            <td>
+              <table width="100%">
+                <tr>
+                  <td style="background-color: white; text-align: center">
+                    <a href="https://www.fsport.se/"
+                      ><img
+                        style="width: 600px; margin-left: 0 auto"
+                        src="https://getvero.s3.amazonaws.com/uploads%2F9424d06c850d9892f170a9a9d0039c7a%2Ffullsize%2Fceb8e627-3cb3-491c-ab13-4b27b69b7d36-header.png"
+                        target="_blank"
+                        alt="FSport Logo"
+                        title="Logo"
+                    /></a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                style="width: 600px"
+                src="https://getvero.s3.amazonaws.com/uploads%2F9424d06c850d9892f170a9a9d0039c7a%2Ffullsize%2F95c678d8-95a1-4532-9680-cd40cbd6f0f7-hero-01.jpg?fbclid=IwAR3JUVpDUeJvYY0lubSmWVVBuvySHQlOMpKi6fPLovPi9dL3SMsHcaEky0g"
+                alt="Banner"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h2>Information inför match</h2>
+            </td>
+          </tr>
+          <tr>
+            <td class="information">
+                <textarea name="Information" id="textarea" cols="70" rows="20">
+Beskrivning av kommande matcher</textarea
+                >
+            </td>
+          </tr>
+          <tr>
+            <td class="link">
+              <button>Läs mer</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <hr />
+            </td>
+          </tr>
+            <tr>
+              <td>
+                <h2>Veckans Top 3</h2>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p style="text-align: center;">Fredrik Andersson</p>
+                <hr class = "hr_statistic" style="width: 70%; border: 3px solid green" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p style="text-align: center">Karl Johansson</p>
+                <hr class = "hr_statistic" style="width: 50%; border: 2px solid green" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p style="text-align: center">Anton Karlsson</p>
+                <hr class = "hr_statistic" style="width: 30%; border: 1px solid green" />
+              </td>
+            </tr>
+            <tr>
+              <td class="link">
+                <button>Läs mer</button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <hr>
+              </td>
+            </tr>
+          </div>
+
+          <div class="points">
+            <tr>
+              <td>
+                <h2>Veckans Poängsammanfattning</h2>
+              </td>
+            </tr>
+            <tr>
+              <td class="player__card">
+                  <h3>Veckans Målvakt</h3>
+                  <p>Fredrik Andersson</p>
+                  <p style = "color: green">Räddningar: 14</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="player__card">
+                  <h3>Veckans Stjärna</h3>
+                  <p>Lucas Persson</p>
+                  <p style = "color: green">Poäng gjorda: 30</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="player__card">
+                  <h3>Veckans Utveckling</h3>
+                  <p>Fredrik Andersson</p>
+                  <p style = "color: green">Poäng gjorda: 15</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="player__card">
+                  <h3>Veckans Fiasko</h3>
+                  <p>Fredrik Andersson</p>
+                  <p style = "color: red">Misstag gjorda: 9</p>
+              </td>
+            </tr>
+            <tr>
+              <td class = "link"><button>Visa spelare</button>
+            </td>
+            </tr>
+        </table>
+      </div>
     </div>
-  </div>
-</body>
-
+  </body>
 </html>
