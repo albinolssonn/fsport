@@ -5,6 +5,14 @@
         <table class="temporary">
             <table class="main">
                 <td>
+                    <table class="logo">
+                        <tr>
+                            <td>
+                                <img style="max-width: 600px;" src="https://getvero.s3.amazonaws.com/uploads%2F9424d06c850d9892f170a9a9d0039c7a%2Ffullsize%2Fceb8e627-3cb3-491c-ab13-4b27b69b7d36-header.png" alt="">
+                            </td>
+                        </tr>
+                    </table>
+                    
                     <table class="newsletter">
 
                         <td class="main__content">
@@ -40,7 +48,7 @@
                                 <tr>
                                     <tr>
                                         <td>
-                                            <img style="max-width: 535px; margin: auto;" src="/Users/albinolsson/Desktop/fsport/testimg.jpg" alt="">
+                                            <img style="max-width: 535px; margin: auto;" src="/Users/albinglad/Desktop/newsletter/testimg.jpg" alt="">
                                         </td>
                                     </tr> 
                                     <tr>
@@ -71,7 +79,8 @@
                                         <td class="title__cell">
                                             <h1>Veckans Utstickare Rubrik</h1>
                                         </td>
-                                        
+                                        <tr height="20"></tr>
+
                                         <tr class="player__holder">
                                             <td class="player__card">
                                                 <h3>Veckans målgörare</h3>
@@ -79,6 +88,8 @@
                                                 <p>Antal Mål: 4</p>
                                             </td>
                                         </tr>
+                                        <tr height="10"></tr>
+
         
                                         <tr class="player__holder">
                                             <td class="player__card">
@@ -87,7 +98,29 @@
                                                 <p>Antal Mål: 4</p>
                                             </td>
                                         </tr>
+
+                                        <tr height="10"></tr>
         
+                                        <tr class="player__holder">
+                                            <td class="player__card">
+                                                <h3>Veckans målgörare</h3>
+                                                <p>Spelarnamn</p>
+                                                <p>Antal Mål: 4</p>
+                                            </td>
+                                        </tr>
+
+                                        <tr height="10"></tr>
+
+                                        <tr class="player__holder">
+                                            <td class="player__card">
+                                                <h3>Veckans målgörare</h3>
+                                                <p>Spelarnamn</p>
+                                                <p>Antal Mål: 4</p>
+                                            </td>
+                                        </tr>
+
+                                        <tr height="10"></tr>
+
                                         <tr class="player__holder">
                                             <td class="player__card">
                                                 <h3>Veckans målgörare</h3>
@@ -107,8 +140,39 @@
                         </td>
                     </table>
 
-                   
-                    
+
+                    <table style="background: #333333;" class="scoreboard__summary">
+                        <td>   
+                            <table class="content__holder">
+                                <tr>
+                                    <tr>
+                                        <td>
+                                            <p>Test1</p>
+                                            <div style="height:10px; width: 90%; background-color: #3e9c35;" class="line2"></div>
+                                        </td>
+                                    </tr> 
+                                    <tr>
+                                        <td>
+                                            <p>Test2</p>
+                                            <div style="height:10px; width: 70%; background-color: #3e9c35;"></div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Test3</p>
+                                            <div style="height:10px; width: 50%; background-color: #3e9c35;" class="line2"></div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        
+                                        <td class="btn__cell">
+                                            <button>Gå till FSport</button>
+                                        </td>
+                                    </tr>
+                                </tr>
+                            </table>
+                        </td>
+                    </table>
                 </td>
             </table>
         </table>
@@ -129,6 +193,10 @@
         .content__holder{
             padding: 30px;
             width: 600px; 
+        }
+        
+        .logo, .player__summary, .newsletter, .weekly__summary, .player__summary{
+            border-collapse: collapse;
         }
 
         .newsletter{
@@ -168,18 +236,10 @@
             background-color: #3e9c35;
         }
 
-        .player__holder{
-            border: 1px solid #ffffff;             
-        }
-
         .player__card{
-            padding: 10px;
-            border: 1px solid #ffffff;
-            border-radius: 5px;
+            padding: 20px 10px;
+            border-bottom: 1px solid #ffffff;
         }
-
-
-
 
     </style>
 </html>
